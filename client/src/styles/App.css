@@ -1,0 +1,78 @@
+/* App Container */
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #f0f4ff, #ffffff);
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Header */
+.App-header {
+  background-color: #1e40af; /* Tailwind blue-800 */
+  color: white;
+  padding: 1.5rem 0;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Task Input */
+input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Task List */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.task-item {
+  background-color: #f8f9fa;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem auto;
+  border-radius: 6px;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
