@@ -37,6 +37,5 @@ Ensure you have the following installed:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Madhushivani/Task-Manager.git
-   cd Task-Manager
+   “This project is a part of a hackathon run by
+https://www.katomaran.com
